@@ -24,7 +24,7 @@ package_grub-theme-blackbird() {
     depends=('grub')
     install=blackbird-theme.install
 
-    cd ../../blackbird
+    cd ../../blackbird-live
     sed -i -e 's,.*text = "Welcome to Blackbird OS".*,#text = "Welcome to Blackbird OS",' theme.txt #remove welcome message
     find . -type f -exec install -D -m644 {} ${pkgdir}/usr/share/grub/themes/blackbird/{} \;
 }
