@@ -6,7 +6,7 @@
 pkgbase=grub-theme-live
 pkgname=('grub-theme-live-blackbird' 'grub-theme-blackbird')
 pkgver=18.0
-pkgrel=1
+pkgrel=2
 pkgdesc='Blackbird OS grub theme'
 arch=('any')
 url="https://github.com/blackbird-os/grub-theme-blackbird"
